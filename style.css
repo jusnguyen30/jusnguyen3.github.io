@@ -20,5 +20,6 @@ h3{
   color: white;
 }
 img{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
