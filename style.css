@@ -1,6 +1,6 @@
 h1{
   color: white;
-  font-family: ‘Times New Roman’;
+  font-family: ‘Lucida Console’;
   text-align: center;
 }
 body{
@@ -9,13 +9,15 @@ body{
 #border{
   background-color: black;
   width: 500px;
+  height: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
 }
 h3{
   display: inline;
+  font-family: 'Lucida Console';
+  color: white;
 }
 img{
   margin: auto;
