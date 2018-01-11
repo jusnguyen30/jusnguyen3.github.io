@@ -7,6 +7,7 @@ body{
   background-color: MediumAquaMarine;
 }
 #border{
+  border-width: thick;
   background-color: black;
   width: 500px;
   height: 200px;
