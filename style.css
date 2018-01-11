@@ -6,3 +6,8 @@ h1{
 body{
   background-color: MediumAquaMarine;
 }
+#border{
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
