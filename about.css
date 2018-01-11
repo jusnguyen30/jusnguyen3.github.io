@@ -3,6 +3,11 @@ h1{
   font-family: 'Courier New';
   text-align: center;
 }
+h3{
+  color: white;
+  font-family: 'Courier New';
+  text-align: right;
+}
 body{
   background-color: MediumAquaMarine;
 }
