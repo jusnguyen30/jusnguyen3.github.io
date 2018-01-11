@@ -8,6 +8,6 @@ body{
 }
 #border{
   border-style: solid;
-  border-width: thick;
+  border-width: 25px;
   border-color: black;
 }
