@@ -24,6 +24,8 @@ p{
   color: white;
   font-family: 'Courier New';
   text-align: top;
+  text-align: center;
+  font-size: 200%;
 }
 img{
   float: left;
