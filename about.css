@@ -19,7 +19,7 @@ a{
 a:hover{
   text-decoration: underline;
 }
-p{
+.par{
   display: inline;
   color: white;
   font-family: 'Courier New';
@@ -33,7 +33,7 @@ p{
   font-family: 'Courier New';
   text-align: center;
   display: inline;
-  font-size: 130%;
+  font-size: 150%;
 }
 img{
   float: left;
