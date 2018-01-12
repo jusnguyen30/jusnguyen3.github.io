@@ -24,16 +24,17 @@ a:hover{
   color: white;
   font-family: 'Courier New';
   text-align: top;
-  text-align: center;
+  text-align: left;
   font-size: 100%;
   font-weight: bold;
 }
 .bold{
   color: black;
   font-family: 'Courier New';
-  text-align: center;
+  text-align: left;
   display: inline;
   font-size: 150%;
+  font-weight: bold;
 }
 img{
   float: left;
