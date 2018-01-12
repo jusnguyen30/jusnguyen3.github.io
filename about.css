@@ -23,6 +23,7 @@ p{
   display: inline;
   color: white;
   font-family: 'Courier New';
+  text-align: top;
 }
 img{
   float: left;
