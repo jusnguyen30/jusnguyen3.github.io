@@ -21,4 +21,6 @@ a:hover{
 }
 p{
   display: inline;
+  color: white;
+  font-family: 'Courier New';
 }
