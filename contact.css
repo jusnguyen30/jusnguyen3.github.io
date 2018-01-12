@@ -11,3 +11,16 @@ h3{
 body{
   background-color: MediumAquaMarine;
 }
+#links{
+  color: white;
+  font-family: 'Courier New';
+  text-align: right;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+ 
