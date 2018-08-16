@@ -22,4 +22,7 @@ a{
 a:hover{
   text-decoration: underline;
 }
+#links{
+  text-align: right;
+}
 
