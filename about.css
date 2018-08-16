@@ -24,11 +24,3 @@ a:hover{
   font-family: 'Courier New';
   font-size: 130%;
 }
-.bold{
-  color: black;
-  font-family: 'Courier New';
-  text-align: left;
-  display: inline;
-  font-size: 150%;
-  font-weight: bold;
-}
