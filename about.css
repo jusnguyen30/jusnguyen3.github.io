@@ -20,13 +20,9 @@ a:hover{
   text-decoration: underline;
 }
 .par{
-  display: inline;
   color: white;
   font-family: 'Courier New';
   text-align: top;
-  text-align: left;
-  font-size: 130%;
-  font-weight: bold;
 }
 .bold{
   color: black;
@@ -35,7 +31,4 @@ a:hover{
   display: inline;
   font-size: 150%;
   font-weight: bold;
-}
-img{
-  float: left;
 }
