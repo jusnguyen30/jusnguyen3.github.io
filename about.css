@@ -19,8 +19,9 @@ a{
 a:hover{
   text-decoration: underline;
 }
-.par{
+p{
   color: white;
   font-family: 'Courier New';
   font-size: 130%;
 }
+
