@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<title>Justin Nguyen</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+
+<body>
+    <section id="page1">
+        <h3 class="bar"><a href=#page1 class="barLink">Home  </a><a href=#page2 class="barLink">About  </a><a href=#page3 class="barLink">Experience </a>
+        </h3>
+    <h1 class="name"><span>Justin Nguyen</span></h1>
+    <h1 id="statement">Student. Developer. Creator.</h1>
+    <center><a href=#page2><button type="button" class="button" id="button1">Learn More</button></a>
+    </center>
+    </section>
+    
+    <section id="page2">
+        <h3 class="bar"><a href=#page1 class="barLink2">Home  </a><a href=#page2 class="barLink2">About  </a><a href=#page3 class="barLink2">Experience </a>
+        </h3>
+        <h1 id="hello">Hello!</h1>
+        <p id="about">I'm Justin, a computer science student and aspiring software engineer. I strive to continuously learn and develop/apply my engineering skills, with the goal of maximizing my personal growth and leaving the world a better place than I found it.
+        </p>
+        <center><a href=#page3><button type="button" class="button" id="button2">My Experience</button></a>
+        </center>
+    </section>
+    
+    <section id="page3">
+        <h3 class="bar"><a href=#page1 class="barLink3">Home  </a><a href=#page2 class="barLink3">About  </a><a href=#page3 class="barLink3">Experience </a>
+        </h3>
+        <h3 id="experienceTitle">Experience</h3>
+        <h3 class="experienceSubtitle">JPMorgan Chase &amp; Co.</h3>
+        <p class="experiencePar">I am currently a software engineering intern at JPMorgan Chase &amp; Co.in their Houston location.</p>
+        <h3 class="experienceSubtitle">Undergraduate Research</h3>
+        <p class="experiencePar">During the summer of 2018, I worked in the Real-time Systems lab at UH, developing a tool to generate random real-time tasks. In the fall of 2019, I will work in the Data Visualization lab.</p>
+        <h3 class="experienceSubtitle">Education</h3>
+        <p class="experiencePar">I am an undergraduate student at the University of Houston, majoring in Computer Science with a minor in Mathematics. I have a strong interest in the disciplines of machine learning and data science. </p>
+        <h3 class="experienceSubtitle">Side Projects</h3>
+        <p class="experiencePar">blank for now</pr>
+        <h3 class="experienceSubtitle">Asian Business Student Association</h3>
+        <p class="experiencePar">As part of the Asian Business Student Association at UH, I served as the Athletics Director, a position that allowed me to work on soft skills such as public speaking. <br><br><br> <center>:)</center>
+        </p>
+        
+    </section>
+    
+    <section id="page4">
+        <center><h3 id="copyright"> © Justin Nguyen 2019 <br> All Rights Reserved. </h3></center>
+    </section>
+    
+    
+    
+    
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $(this.getAttribute('href'));
+            if( target.length ) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+            }
+        });
+    </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                        event.preventDefault();
+                        $('html, body').stop().animate({
+                                scrollTop: target.offset().top
+                        }, 1000);
+                }
+        });
+    </script>
+
+</body>
+  
+</html>
