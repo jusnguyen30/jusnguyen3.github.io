@@ -6,7 +6,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Andale Mono";
+    font-family: Montserrat;
 }
 
 section{
@@ -65,7 +65,6 @@ h1{
 .bar{
     text-align: right;
     padding-right: 50px;
-    font-family: "Andale Mono";
     font-size: 18px;
     text-decoration: underline overline;
 }
@@ -96,8 +95,8 @@ h1{
     padding: 16px 32px;
     text-align: center;
     border: 2px solid black;
-    font-family: "Andale Mono";
     font-size: 20px;
+    font-family: Montserrat;
 }
 
 #button1:hover {
@@ -114,28 +113,28 @@ h1{
 
 #copyright{
     color: white;
-    font-family: "Andale Mono";
 }
 
 #experienceTitle{
     color: black;
-    font-family: "Andale Mono";
     font-size: 50px;
     text-align: center;
+    padding-top: 0;
+    margin-top: 0;
 }
 .experienceSubtitle{
     color: black;
-    font-family: "Andale Mono";
     font-size: 30px;
     text-decoration: underline;
 }
 .experiencePar{
     color: black;
-    font-family: "Andale Mono";
     font-size: 20px;
-    
 }
 
+#thirdBar{
+    
+}
 
 /* Animation for name/*
 
