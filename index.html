@@ -5,28 +5,45 @@
 <title>Justin Nguyen</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Sniglet&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <head>
 
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">JN</a>
+        <div class="collapse navbar-collapse" data-toggle="collapse" id="nav-content">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#page2">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#page6">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <section id="page1">
         <h3 class="bar"><a href=#page1 class="barLink">Home  </a><a href=#page2 class="barLink">About  </a><a href=#page3 class="barLink">Experience </a>
         </h3>
-    <h1 class="name"><span>Justin Nguyen</span></h1>
-    <h1 id="statement">Student. Developer. Creator.</h1>
-    <center><a href=#page2><button type="button" class="button" id="button1">Learn More</button></a>
-    </center>
+    <h1 class="name"><span>JUSTIN NGUYEN</span></h1>
+    <center><h3 id="statement">Student, Developer, Go-getter</h3></center>
     </section>
-    
+
     <section id="page2">
-        <h3 class="bar"><a href=#page1 class="barLink2">Home  </a><a href=#page2 class="barLink2">About  </a><a href=#page3 class="barLink2">Experience </a>
-        </h3>
-        <h1 id="hello">Hello!</h1>
-        <p id="about">I'm Justin, a computer science student and aspiring software engineer. I strive to continuously learn and develop/apply my engineering skills, with the goal of maximizing my personal growth and leaving the world a better place than I found it.
+    </section>
+
+    <section id="page3">
+        <h1 id="hello">Hello,world!</h1>
+        <p id="about">
+            I'm a CS student and software developer, aspiring to take on software engineering and PM roles in the tech space.
         </p>
-        <center><a href=#page3><button type="button" class="button" id="button2">My Experience</button></a>
-        </center>
     </section>
     
+    <!--
     <section id="page3">
         <h3 class="bar" id="thirdBar"><a href=#page1 class="barLink3">Home  </a><a href=#page2 class="barLink3">About  </a><a href=#page3 class="barLink3">Experience </a>
         </h3>
@@ -42,11 +59,42 @@
         <h3 class="experienceSubtitle">Asian Business Student Association</h3>
         <p class="experiencePar">As part of the Asian Business Student Association at UH, I served as the Athletics Director, a position that allowed me to work on soft skills such as public speaking.
         </p>
-        
+    </section>
+-->
+
+    <section id="page4">
+        <center><h3>About Me</h3> <br></center>
+        <div class="container my-container">
+            <div class="row my-row">
+                <div class="col my-col">
+                    <div><img src="uh.svg" class="img-fluid"></div>
+                </div>
+                <div class="col my-col">
+                    <img src="jpmc.png" class="img-fluid">
+                </div>
+                <div class="col my-col">
+                    <img src="jpmc.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row my-row">
+                <div class="col my-col">
+                    Future Internship
+                </div>
+                <div class="col my-col">
+                    <img src="uhabsa.jpg" style = "height: 300px; width: 400px;" class="img-fluid">
+                </div>
+                <div class="col my-col">
+                    <img src="interests.png" style = "height: 300px; width: 400px;" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </section>
     
-    <section id="page4">
-        <center><h3 id="copyright"> © Justin Nguyen 2019 <br> All Rights Reserved. </h3></center>
+    <section id="page5">
+        <p style="color:black; text-align:center;">Email | LinkedIn</p>
+    </section>
+    <section id="page6">
+        <center><p id="copyright"> Copyright © 2020 Justin Nguyen, All Rights Reserved. </p></center>
     </section>
     
     
