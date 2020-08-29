@@ -24,22 +24,25 @@ section{
 }
 
 #page3{
-    background-color: rgb(95, 112, 143);
-    background-color: rgb(162, 163, 185);
     background-color: rgb(190, 90, 76) !important;
     height: 80%;
 }
 
 #page4{
-    background-color: rgb(243, 239, 239);
+    background-color: rgb(219, 219, 221);
     height: 130%;
 }
 
 #page5{
+    height: 100%;
+    background-color: rgb(243, 239, 239);
+}
+
+#page6{
     height: 10%;
     background-color: white;
 }
-#page6{
+#page7{
     background-color: rgb(128, 163, 128);
     height: 10%;
     padding-top: 20px;
@@ -82,80 +85,13 @@ h1{
     padding-bottom: 120px;
 }
 
-.bar{
-    text-align: right;
-    padding-right: 50px;
-    font-size: 18px;
-    text-decoration: underline overline;
-}
-.barLink{
-    color: black;
-}
-.barLink:hover{
-    color: white;
-}
-.barLink2{
-    color: white;
-}
-.barLink2:hover{
-    color: rgb(111, 182, 115);
-}
-.barLink3{
-    color: black;
-}
-.barLink3:hover{
-    color: rgb(188, 185, 185);
-}
-
-.button{
-    background-color: white;
-    color: black;
-    border: none;
-    margin: 4px 2px;
-    padding: 16px 32px;
-    text-align: center;
-    border: 2px solid black;
-    font-size: 20px;
-    font-family: Montserrat;
-}
-
-#button1:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-#button2:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
 #copyright{
     color: black;
 }
 
-#experienceTitle{
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 0;
-    margin-top: 0;
+#PCIC{
+    padding-top: 100px;
 }
-.experienceSubtitle{
-    color: black;
-    font-size: 30px;
-    text-decoration: underline;
-}
-.experiencePar{
-    color: black;
-    font-size: 20px;
-}
-
-#thirdBar{
-    
-}
-
 
 .my-container {
     text-align: center;
@@ -164,9 +100,14 @@ h1{
     height: 350px;
 }
 .my-col {
-    border: solid rgb(216, 211, 211);
+    border: solid rgb(190, 190, 190);
     border-width: thin;
 }
+
+.contactLinks{
+    color: black !important;
+}
+
 
 /* Animation for name/*
 
